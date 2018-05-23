@@ -1,0 +1,27 @@
+#abas{
+    border: 1px solid hotpink;
+    overflow: auto;
+}
+#conteudos{...}
+
+#abas ul{
+    display: inline;
+    list-style: none;
+}
+
+
+#abas ul li{
+    float: left;
+    display: inline-block;
+    border: solid 1px black;
+    padding: 5px 15px;
+    border-radius: 10px 10px ;
+}
+#conteudos{
+    padding: 10px;
+    border: 1px solid purple;
+}
+.selecionado{
+    background-color: #5d5dd5;
+    box-shadow: 5px  5px  5px rgba(0,0,0,0.5);
+}
